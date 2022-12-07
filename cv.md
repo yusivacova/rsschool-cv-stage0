@@ -13,3 +13,16 @@ I am 26 years old. I have no experience in programming, but I really want to get
 * HTML
 * CSS (SCSS)
 * JavaScript(start learning)
+## Code example
+```
+function multiply(a, b){
+  return a * b
+}
+```
+## Education
+course JS/FE Pre-School in RS School (now)
+## Languages
+* Russian (native speaker)
+* English (A1 - learn)
+* Ukrainian (understand)
+* Belarusian (understand)
