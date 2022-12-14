@@ -30,10 +30,12 @@ ul li {
 .wrapper {
    min-height: 100%;
    font-family: 'Montserrat', sans-serif;
+   display: flex;
+   flex-direction: column;
 }
 
 .container {
-   max-width: 2210px;
+   max-width: 1400px;
    margin: 0 auto;
    padding: 0 15px;
    overflow: hidden;
@@ -57,11 +59,45 @@ ul li {
 }
 
 .nav-link {
-   font-size: 30px;
+   font-size: 20px;
    font-weight: 600;
    color: #fff;
 }
 
-.content {}
+.content {
+flex: 1 1 auto;
+}
+
+.profile {
+
+}
+
+.profile-body {
+   display: flex;
+}
+
+.profile-image {
+   flex: 0 0 33.3%;
+}
+.profile-image img{
+   max-width: 100%;
+}
+
+.profile-main {
+   flex: 1 1 66.7%;
+   align-self: center;
+   padding: 65px 0 65px 55px;
+   font-weight: 500;
+   letter-spacing: 10px;
+   background-color: #fecb00;
+}
+
+.profile-title {
+   font-size: 50px;
+}
+
+.profile-subtitle {
+   font-size: 30px;
+}
 
 .footer {}
