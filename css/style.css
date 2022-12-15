@@ -49,17 +49,18 @@ ul li {
    padding: 15px 0;
 }
 
-.nav-list {
+.nav__list {
    display: flex;
    justify-content: end;
 }
 
-.nav-item {
-   margin: 0 15px;
+.nav__item {
+
 }
 
-.nav-link {
-   font-size: 20px;
+.nav__link {
+   padding: 0 15px;
+   font-size: 15px;
    font-weight: 600;
    color: #fff;
 }
@@ -72,18 +73,18 @@ flex: 1 1 auto;
 
 }
 
-.profile-body {
+.profile__body {
    display: flex;
 }
 
-.profile-image {
+.profile__image {
    flex: 0 0 33.3%;
 }
-.profile-image img{
+.profile__image img{
    max-width: 100%;
 }
 
-.profile-main {
+.profile__main {
    flex: 1 1 66.7%;
    align-self: center;
    padding: 65px 0 65px 55px;
@@ -92,12 +93,42 @@ flex: 1 1 auto;
    background-color: #fecb00;
 }
 
-.profile-title {
+.profile__title {
    font-size: 50px;
 }
 
-.profile-subtitle {
+.profile__subtitle {
    font-size: 30px;
 }
 
+.content{}
+.profile{}
+.container{}
+.profile__body{}
+.profile__image{}
+.profile__main{}
+.profile__title{}
+.profile__subtitle{}
+.content__info{}
+.content__body{}
+.info-part1{}
+.content__contacts{}
+.block__list{}
+.block__item{}
+.block__link{}
+.info-part2{}
+.content__about-me{}
+.block .block__title{}
+.block__text{}
+.content__education{}
+.content__projects{}
+.content__code-example{}
+.content__code{}
+.content__skills{}
+.content__languages{}
+
+
 .footer {}
+
+
+
