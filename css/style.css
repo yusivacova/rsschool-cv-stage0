@@ -21,6 +21,7 @@ html,
 body {
    width: 100%;
    height: 100%;
+   scroll-behavior: smooth;
 }
 
 ul li {
@@ -29,9 +30,11 @@ ul li {
 
 .wrapper {
    min-height: 100%;
-   font-family: 'Montserrat', sans-serif;
    display: flex;
    flex-direction: column;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 25px;
+   font-weight: 500;
 }
 
 .container {
@@ -46,7 +49,7 @@ ul li {
 }
 
 .nav {
-   padding: 15px 0;
+   padding: 25px 0;
 }
 
 .nav__list {
@@ -60,9 +63,10 @@ ul li {
 
 .nav__link {
    padding: 0 15px;
-   font-size: 15px;
+   font-size: 20px;
    font-weight: 600;
-   color: #fff;
+   color: #FFFFFF;
+   transition: 0.2s;
 }
 
 .content {
@@ -78,14 +82,15 @@ flex: 1 1 auto;
 }
 
 .profile__image {
-   flex: 0 0 33.3%;
+   flex: 0 0 450px;
+   margin: 0 0 0 -15px;
 }
 .profile__image img{
    max-width: 100%;
 }
 
 .profile__main {
-   flex: 1 1 66.7%;
+   flex: 1 1 auto;
    align-self: center;
    padding: 65px 0 65px 55px;
    font-weight: 500;
@@ -101,33 +106,128 @@ flex: 1 1 auto;
    font-size: 30px;
 }
 
-.content{}
-.profile{}
-.container{}
-.profile__body{}
-.profile__image{}
-.profile__main{}
-.profile__title{}
-.profile__subtitle{}
-.content__info{}
-.content__body{}
-.info-part1{}
-.content__contacts{}
-.block__list{}
-.block__item{}
-.block__link{}
-.info-part2{}
-.content__about-me{}
-.block .block__title{}
-.block__text{}
-.content__education{}
-.content__projects{}
-.content__code-example{}
-.content__code{}
-.content__skills{}
-.content__languages{}
+.content__info{
 
+}
+.content__body{
+   display: flex;
+}
 
+.info-part1{
+   flex: 0 0 450px;
+   margin: 0 0 0 -15px;
+   background-color: #202026;
+}
+.content__contacts{
+   height: 100%;
+}
+
+.contacts__list{
+   width: 100%;
+}
+
+.contacts__item{
+   margin: 25px 0;
+}
+
+.contacts__item-name{
+   position: relative;
+   padding: 5px 75px;
+   font-size: 20px;
+   font-weight: 600;
+   color: #FFFFFF;
+   background-color: #292a30;
+}
+
+.contacts__item-name::before {
+   content: '';
+   position: absolute;
+   top:0;
+   left: 0;
+   width: 55px;
+   height: 100%;
+   background-color: #fecb00;
+}
+
+.contacts__link{
+   padding: 0 75px;
+   font-size: 18px;
+   font-weight: 500;
+   color: #FFFFFF;
+}
+
+.info-part2{
+   flex: 1 1 auto;
+   padding: 0 55px;
+}
+
+.content__about-me{
+   margin: 0 0 25px 0;
+}
+
+.block {
+   max-width: 800px;
+}
+.block__title{
+   position: relative;
+   margin: 0 0 15px 0;
+   padding: 0 0 25px 0;
+   font-size: 30px;
+   font-weight: 600;
+   letter-spacing: 5px;
+}
+.block__title::after {
+   content: '';
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   width: 100%;
+   height: 1px;
+   background-color: #202026;
+}
+
+.block__link{
+   color: #000000;
+
+}
+.block__list{
+}
+
+.block__item{
+   position: relative;
+   margin: 0 0 15px 0;
+   padding: 0 20px;
+}
+.block__item::before{
+   content: '';
+   position: absolute;
+   top: 50%;
+   left: 0;
+   width: 10px;
+   height: 10px;
+   border-radius: 50%;
+   background-color: #fecb00;
+}
+.content__education{
+   margin: 0 0 25px 0;
+}
+.content__projects{
+   margin: 0 0 25px 0;
+}
+.content__code-example{
+   margin: 0 0 25px 0;
+}
+.content__code{
+   color: #FFFFFF;
+   background-color: #565659;
+
+}
+.content__skills{
+   margin: 0 0 25px 0;
+}
+.content__languages{
+   margin: 0 0 25px 0;
+}
 .footer {}
 
 
