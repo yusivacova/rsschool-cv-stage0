@@ -199,7 +199,7 @@ ul li {
 	display: flex;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 880px) {
 	.content__body {
 		flex-direction: column;
 	}
@@ -315,10 +315,11 @@ ul li {
 	}
 }
 
-@media (max-width: 576px) {
+@media (max-width: 880px) {
 	.info-part2 {
 		order: -1;
 		margin: 15px 0 0;
+    padding: 0 15px;
 	}
 }
 
@@ -446,6 +447,10 @@ ul li {
 
 	.content__code-example {
 		margin: 0 0 15px;
+	}
+
+  .content__code {
+		font-size: 11px;
 	}
 
 	.content__skills {
